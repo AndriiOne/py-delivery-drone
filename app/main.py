@@ -40,7 +40,8 @@ class FlyingRobot(BaseRobot):
             self,
             name: str,
             weight: int,
-            coords: Optional[List[int]] = None) -> None:
+            coords: Optional[List[int]] = None
+    ) -> None:
         if coords is None:
             coords = [0, 0, 0]
         elif len(coords) == 2:
